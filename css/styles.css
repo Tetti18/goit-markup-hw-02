@@ -17,9 +17,8 @@ button {
 
 body {
     color: var(--navyblue, #2E2F42);
-    font-family: 'Roboto',
-            sans-serif;
-
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
 }
 
 .logotype {
