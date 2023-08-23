@@ -46,7 +46,7 @@ body {
         text-transform: uppercase;
 }
 .spanlogotype {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue, #2e2f42);
 }
 .menu-link {
     color: var(--navyblue, #2E2F42);
@@ -148,4 +148,22 @@ body {
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.32px;
+}
+.pagefooter {
+    background-color: #2e2f42;
+}
+.spanlogotypefooter {
+    color: #f4f4fd;
+}
+
+.textfooter {
+    color: var(--cloud, #F4F4FD);
+    
+        /* Body */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.02em;
 }
