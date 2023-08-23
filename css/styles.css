@@ -13,8 +13,21 @@
 button {
     cursor: pointer;
     text-align: center;
+    color: var(--white, #FFF);
+    
+        /* Button Text */
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.04em;
 }
-
+button:hover,
+button:focus {
+    color: #404BBF
+}
 body {
     color: var(--navyblue,#434455);
     font-family: "Roboto", sans-serif;
@@ -39,8 +52,7 @@ body {
     color: var(--navyblue, #2E2F42);
     
         /* Body Medium */
-        font-family: 'Roboto',
-            sans-serif;
+        font-family:"Roboto", sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -62,7 +74,7 @@ body {
         /* 107.143% */
         letter-spacing: 1.12px;
         border-radius: 8px;
-            background: var(--grey, rgba(46, 47, 66, 0.70));
+            background: #2e2f42;
             box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05) inset;
 }
 .titlesecond {
@@ -103,6 +115,7 @@ body {
         line-height: 1.2;
         /* 120% */
         letter-spacing: 0.4px;
+        background-color: #F4F4FD;
 }
 .teamp {
     color: var(--slate, #434455);
@@ -114,6 +127,7 @@ body {
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.32px;
+        background-color: #F4F4FD;
 }
 .portfolioh {
     color: var(--navyblue, #2E2F42);
