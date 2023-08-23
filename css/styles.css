@@ -153,17 +153,20 @@ body {
     background-color: #2e2f42;
 }
 .spanlogotypefooter {
-    color: #f4f4fd;
+    color: #f4f4fd
 }
 
+.pagefooter {
+    background-color: #2e2f42
+}
 .textfooter {
     color: var(--cloud, #F4F4FD);
-    
+
         /* Body */
         font-size: 16px;
-        font-style: normal;
+
         font-weight: 400;
         line-height: 1.5;
         /* 150% */
-        letter-spacing: 0.02em;
+        letter-spacing: 0.2em;
 }
