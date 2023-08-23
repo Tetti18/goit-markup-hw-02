@@ -12,6 +12,14 @@
 
 button {
     cursor: pointer;
+    text-align: center;
+}
+
+body {
+    color: var(--navyblue, #2E2F42);
+    font-family: 'Roboto',
+            sans-serif;
+
 }
 
 .logotype {
@@ -27,4 +35,104 @@ button {
 }
 .spanlogotype {
     color: var(--iris, #4D5AE5);
+}
+.menu-link {
+    color: var(--navyblue, #2E2F42);
+    
+        /* Body Medium */
+        font-family: 'Roboto',
+            sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF
+}
+.titlehero {
+    color: var(--white, #FFF);
+        text-align: center;
+    
+        /* Header 1 */
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        /* 107.143% */
+        letter-spacing: 1.12px;
+        border-radius: 8px;
+            background: var(--grey, rgba(46, 47, 66, 0.70));
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05) inset;
+}
+.titlesecond {
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+    
+        /* Header 2 */
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+}
+.sectionh {
+        /* Header 3 */
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: 0.4px;
+}
+.sectionp {
+    
+        /* Body */
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+.teamh {
+        text-align: center;
+    
+        /* Header 3 */
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: 0.4px;
+}
+.teamp {
+    color: var(--slate, #434455);
+        text-align: center;
+    
+        /* Body */
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
+.portfolioh {
+    color: var(--navyblue, #2E2F42);
+    
+        /* Header 3 */
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        /* 120% */
+        letter-spacing: 0.4px;
+}
+.portfoliop {
+    color: var(--slate, #434455);
+    
+        /* Body */
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.32px;
 }
