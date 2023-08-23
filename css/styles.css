@@ -35,7 +35,7 @@ body {
 }
 
 .logotype {
-    color: var(--navyblue, #4d5ae5);
+    color: var(--iris, #4D5AE5);
         font-family: 'Raleway',
             sans-serif;
         font-size: 18px;
@@ -46,7 +46,7 @@ body {
         text-transform: uppercase;
 }
 .spanlogotype {
-    color: var(--iris, #4D5AE5);
+    color: var(--navyblue, #2E2F42);
 }
 .menu-link {
     color: var(--navyblue, #2E2F42);
