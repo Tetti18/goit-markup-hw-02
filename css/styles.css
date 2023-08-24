@@ -1,9 +1,3 @@
-
-.visually-hidden {
-
-}
-
-
 .link {
     text-decoration: none;
 }
@@ -18,9 +12,7 @@
 
 button {
     cursor: pointer;
-    text-align: center;
     color: var(--white, #FFF);
-    
         /* Button Text */
         font-family: "Roboto", sans-serif;
         font-size: 16px;
@@ -45,7 +37,7 @@ body {
 
 .logotype {
     color: var(--iris, #4D5AE5);
-        font-family: 'Raleway',
+        font-family: "Raleway",
             sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -58,6 +50,9 @@ body {
     color: var(--navyblue, #2e2f42);
 }
 .menu-list {
+    color: #2e2f42;
+}
+.menu-item {
     color: #2e2f42;
 }
 .menu-link {
@@ -83,21 +78,19 @@ body {
 }
 .titlehero {
     color: var(--white, #FFF);
-        text-align: center;
-    
-        /* Header 1 */
+      /* Header 1 */
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
         /* 107.143% */
         letter-spacing: 1.12px;
-        border-radius: 8px;
+        
             background: #2e2f42;
-            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05) inset;
+        
 }
 .buttonhero {
     background-color: #4D5AE5;
-} 
+}
 .buttonhero:hover {
     background-color: #404BBF;
 }
@@ -112,7 +105,7 @@ body {
 }
 .titlesecond {
     color: var(--navyblue, #2E2F42);
-        text-align: center;
+        
     
         /* Header 2 */
         font-size: 36px;
@@ -147,7 +140,7 @@ body {
     background-color: #FFFFFF;
 }
 .teamh {
-        text-align: center;
+    
     
         /* Header 3 */
         font-size: 20px;
@@ -159,7 +152,7 @@ body {
 }
 .teamp {
     color: var(--slate, #434455);
-        text-align: center;
+    
     
         /* Body */
         font-size: 16px;
