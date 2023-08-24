@@ -1,3 +1,9 @@
+
+.visually-hidden {
+
+}
+
+
 .link {
     text-decoration: none;
 }
@@ -24,9 +30,12 @@ button {
         /* 150% */
         letter-spacing: 0.04em;
 }
-button:hover,
+button:hover, {
+    background-color: #404BBF;
+}
 button:focus {
     color: #404BBF
+    background-color: #404BBF;
 }
 body {
     color: var(--navyblue,#434455);
@@ -48,6 +57,9 @@ body {
 .spanlogotype {
     color: var(--navyblue, #2e2f42);
 }
+.menu-list {
+    color: #2e2f42;
+}
 .menu-link {
     color: #434455;
     
@@ -63,6 +75,12 @@ body {
 .menu-link:focus {
     color: #404BBF
 }
+.page-adress {
+    font-style: normal;
+}
+.section-hero {
+    background-color: #2e2f42;
+}
 .titlehero {
     color: var(--white, #FFF);
         text-align: center;
@@ -76,6 +94,12 @@ body {
         border-radius: 8px;
             background: #2e2f42;
             box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05) inset;
+}
+.buttonhero {
+    background-color: #4D5AE5;
+} 
+.visually-hidden {
+    color: #2e2f42;
 }
 .titlesecond {
     color: var(--navyblue, #2E2F42);
@@ -105,6 +129,10 @@ body {
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.32px;
+}
+.our-team {
+    color: #2e2f42;
+    background-color: #F4F4FD;
 }
 .teamh {
         text-align: center;
