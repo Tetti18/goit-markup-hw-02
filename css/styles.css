@@ -86,6 +86,11 @@ body {
         /* 150% */
         letter-spacing: 0.32px;
 }
+
+.address-link:hover,
+.address-link:focus {
+    color: #404BBF;
+}
 .section-hero {
     background-color: #2e2f42;
 }
