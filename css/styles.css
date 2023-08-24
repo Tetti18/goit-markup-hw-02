@@ -163,11 +163,11 @@ body {
 
 }
 .spanlogotypefooter {
-    color: #f4f4fd
+    color: #f4f4fd;
 }
 
 .page-footer {
-    background-color: #2e2f42
+    background-color: #2e2f42;
 }
 .textfooter {
     color: var(--cloud, #F4F4FD);
