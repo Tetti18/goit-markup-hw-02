@@ -74,6 +74,18 @@ body {
 .page-adress {
     font-style: normal;
 }
+
+.address-link {
+    color: #434455;
+    
+        /* Body Medium */
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
 .section-hero {
     background-color: #2e2f42;
 }
