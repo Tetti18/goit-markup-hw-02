@@ -98,6 +98,15 @@ body {
 .buttonhero {
     background-color: #4D5AE5;
 } 
+.buttonhero:hover {
+    background-color: #404BBF;
+}
+.buttonhero:focus {
+    background-color: #404BBF;
+}
+.section-vis-hid {
+    color: #2e2f42;
+}
 .visually-hidden {
     color: #2e2f42;
 }
@@ -133,6 +142,9 @@ body {
 .our-team {
     color: #2e2f42;
     background-color: #F4F4FD;
+}
+.our-team-list {
+    background-color: #FFFFFF;
 }
 .teamh {
         text-align: center;
