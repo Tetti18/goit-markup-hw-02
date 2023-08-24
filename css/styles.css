@@ -157,6 +157,15 @@ body {
         letter-spacing: 0.32px;
         background-color: #F4F4FD;
 }
+.portfolio {
+    background-color: #F4F4FD;
+}
+.portfolio-list {
+    background-color: #FFFFFF;
+}
+.titlesecond {
+    color: #2e2f42;
+}
 .portfolioh {
     color: var(--navyblue, #2E2F42);
     
